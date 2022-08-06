@@ -1,19 +1,19 @@
 module.exports = {
   presets: [
-    '@vue/cli-plugin-babel/preset'
+    '@vue/cli-plugin-babel/preset',
   ],
   plugins: [
     ['template-html-minifier', {
-      modules:{
-      'lit-element' : ['html', 'css'],
+      modules: {
+        'lit-element': ['html', 'css'],
+      },
+      htmlMinifier: {
+        caseSensitive: true,
+        collapseWhitespace: true,
+        removeComments: true,
+      },
     },
-    htmlMinifier: {
-      caseSensitive: true,
-      collapseWhitespace:true,
-      removeComments: true,
-    },
-  }
 
     ],
   ],
-}
+};
