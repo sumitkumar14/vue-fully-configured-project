@@ -11,11 +11,6 @@ export default {
   components: {
     HelloWorld,
   },
-  methods: {
-    col() {
-      console.log('hello');
-    },
-  },
 };
 </script>
 
