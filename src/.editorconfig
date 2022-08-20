@@ -1,5 +1,6 @@
 [*.{js,jsx,ts,tsx,vue}]
 ident_style = space
 ident_size = 2
+linebreak-style= lf
 trim_trailing_whitespace = true
 max_line_length = 120
