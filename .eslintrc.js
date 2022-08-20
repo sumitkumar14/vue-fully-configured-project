@@ -1,5 +1,7 @@
 module.exports = {
   rules: {
+    'jsx-a11y/label-has-for': 'off',
+    'vuejs-accessibility/label-has-for': 'off',
     'line-break-style': 'off',
     'no-unused-vars': 'error',
     'no-console': 'warn',
