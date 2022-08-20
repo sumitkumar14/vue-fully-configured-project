@@ -25,6 +25,6 @@
     "eslint-plugin-import":"^2.25.3"
   },
   "gitHooks": {
-    "pre-comit": "vue-cli-service lint --no-fix"
+    "pre-commit": "vue-cli-service lint --no-fix"
   }
 }
