@@ -1,4 +1,4 @@
-# vue-innovative-project
+# vue-fully-configured-project
 
 ## Project setup
 ```
